@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    background-color: hsl(217, 54%, 11%);
+}
+
+main {
+    width: 350px;
+}
+
+.card {
+    padding: 25px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.main-image {
+    position: relative;
+}
+
+.equilibrium {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.view {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: .5s;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.view:hover {
+    opacity: 0.5;
+}
+
+.icon-view {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+h1 {
+    margin: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+h1,
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    margin: 15px 0;
+}
+
+.nft-text {
+    display: flex;
+    margin: 25px 0;
+    color: hsl(215, 51%, 70%);
+    justify-content: space-between;
+}
+
+.eth-text {
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.time-text {
+    font-weight: 300;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 10rem;
+    height: 33px;
+}
+
+.profile-text {
+    padding-left: 17px;
+}
+
+.profile-name {
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+    font-size: 12px;
+    margin-top: 1em;
+    text-align: center;
+}
